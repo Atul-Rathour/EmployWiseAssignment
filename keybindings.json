@@ -1,0 +1,5 @@
+{
+  "key": "ctrl+l",
+  "command": "editor.action.selectLine",
+  "when": "editorTextFocus"
+} 
