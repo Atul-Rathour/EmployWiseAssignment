@@ -118,6 +118,15 @@ src/
    - More advanced user management
    - Role-based access control
 
+
+## Live Demo
+
+You can access the live demo of this project at: [EmployWise Assignment](https://employ-wise-assignment-seven.vercel.app/)
+
+The application is hosted on Vercel for easy access and demonstration of the features.
+
+
 ## License
 
 This project is open source and available under the [MIT License](LICENSE).
+
