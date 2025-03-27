@@ -1,4 +1,5 @@
 import React from 'react';
+import BG from '../../assets/Group-725.png';
 
 const EditUserModal = ({ 
   showEditModal, 
@@ -13,7 +14,7 @@ const EditUserModal = ({
     <>
       {showEditModal && (
         <div className="fixed inset-0 w-screen h-screen bg-opacity-50 flex items-center justify-center z-50">
-          <img src="/src/assets/Group-725.png" alt="Background" className="w-full h-full object-cover absolute top-0 left-0 z-9" />
+          <img src={BG} alt="Background" className="w-full h-full object-cover absolute top-0 left-0 z-9" />
           <div className="bg-white/30 backdrop-blur-sm rounded-lg p-6 w-full max-w-md z-10">
             <h2 className="text-xl font-bold mb-4 text-[#45054A]">Edit User</h2>
             <form onSubmit={handleUpdateUser}>
